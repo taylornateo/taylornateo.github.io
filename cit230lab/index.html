@@ -6,12 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Nate Taylor | WDD 230 Assignment Portal</title>
     <link rel="stylesheet" href="css/main.css">
-
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/medium.css">
+    
 </head>
 <body>
     <header>
         <img src="images/ME.jpg" alt="student_photo" class="studentPhoto">
-        <h1>Nate Taylor</h1>
+        <h1>Nate O. Taylor</h1>
 
     </header>
     <main>
@@ -28,8 +30,10 @@
         </div>
     </main>
     <footer>
-        <p>&copy; 2020 | Nate Taylor | <a href="https://www.byui.edu/online" target="_blank">BYUI Online Learning</a></p>
+        <p>&copy; <span id="currentYear"></span> | Nate Taylor | Nevada | <a href="https://www.byui.edu/online" target="_blank">BYUI Online Learning</a></p>
+        <p>Last Modified: <span id="currentdate"></span></p>
    </footer>
-
+   <script src="js/currentDate.js"></script>
+   <script src="js/lastModified.js"></script>
  </body>
 </html>
