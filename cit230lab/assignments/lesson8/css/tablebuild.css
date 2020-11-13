@@ -1,7 +1,62 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 
+body {
+    font-size: 18px;
+    line-height: 1.5;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+header,
+main,
+footer {
+    margin: 1.25em auto;
+    max-width: 1060px;
+}
+
+header,
+footer {
+    padding: 1em;
+    text-align: center;
+    background: royalblue;
+    color: #fff;
+}
+
+@media only screen and (min-width: 32.5em) {
+
+    header,
+    footer {
+        border-radius: 5px;
+    }
+}
+
+h1,
+h2 {
+    font-family: 'Fredericka the Great', cursive;
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.7em;
+    color: grey;
+    text-align: left;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+a,
+a:visited {
+    color: blue;
+}
+
 table {
     font-family: Ubuntu, sans-serif;
+    text-align: center;
 }
 
 table, tr, td, th {
@@ -12,6 +67,7 @@ table, tr, td, th {
 
 td, th {
     padding: 3px;
+    text-align: center;
 }
 
 th, #black-friday {
@@ -22,6 +78,7 @@ th, #black-friday {
 table{
     width: 300px;
     border-collapse: collapse;
+    text-align: center;
 }
 
 thead, tfoot {
