@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preston Town Home Page</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="shortcut icon" href="images/Avatar.JPG">
+</head>
+
+<body>
+    <div id="friday">
+        <p>Saturday = Preston Pancakes in the Park!</p>
+        <p>9:00 a.m. Saturday at the city park.</p>
+    </div>
+    <header>
+        <div class="title">
+            <img src="images/Avatar.JPG" alt="The Ginger Forecast Logo">
+            <div>
+                <h1>The Ginger Forecast</h1>
+                <p>Perfect weather for the average Ginger.</p>
+            </div>
+        </div>
+        <nav>
+            <ul class="navigation">
+                <li><a class="ham" href="preston-11.html">&#9776; Menu</a></li>
+                <li><a href="preston-11.html">Home</a></li>
+                <li><a href="preston.html">Preston</a></li>
+                <li><a href="sodasprings.html">Soda Springs</a></li>
+                <li class="active"><a href="fishhaven.html">Fish Haven</a></li>
+                <li><a href="stormcenter.html">Storm Center</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+
+        <section class="hero-image">
+            <h1 class="preston">Fish Haven, Idaho</h1>
+            <div class="herodiv">
+                <picture>
+                    <source srcset="images/fish-haven-hero.jpg" media="(min-width: 900px)">
+                    <source srcset="images/fish-haven-hero.jpg" media="(min-width: 520px)">
+                    <img src="images/fish-haven-hero.jpg" alt="Fish Haven, Idaho">
+                </picture>
+                <section class="stats">
+                    <h2>Weather Summary</h2>
+                    <p>Currently: Rainy</p>
+                    <p>High: 54 &deg;F</p>
+                    <p>Wind Chill: <span id=windChill></span>&deg;F</p>
+                    <p>Humidity: 95%</p>
+                    <p>Wind Speed: 12mph</p>
+                </section>
+            </div>
+        </section>
+
+        <section class="forecast">
+            <h2>5 day forecast</h2>
+        </section>
+
+        <section class="article">
+            <h2>Developing Town: Traversing the 'Riverbottoms' </h2>
+            <p class="author">By CLAUDIA ERICKSON</p>
+            <p class="content">
+                As the population of the community of Bridgeport moved away that area, part of the Mendenhall and Frew
+                family ranches, become referred to as “The Riverbottoms.” The Bridgeport Branch of the Church of Jesus
+                Christ of Latter-day Saints faded away and those homes north of the state road (HWY 36) were included in
+                the Dayton Ward, while those south of the road joined the Weston Ward. “The Frew family gave the ground
+                for the present Highway 36 to the State of Idaho.”
+            </p>
+            <p class="content-2">
+
+                There were mineral hot springs on the upper end of the ‘bottoms,’ on the west wide of the river. Local
+                entrepreneurs of that time, A. W. Hart and Clarence Chadwick, owned the piece where the steam rises at
+                the bend of the river and built a resort/swimming pool there in 1904. They later leased the resort to
+                Sanders & Sanders. This new management advertised: “The best mineral baths in the world are at the Hot
+                Springs. Try Tem. Cures rheumatism and all skin diseases.” Later these managers turned the resort into a
+                saloon and dance hall to cater to the men building the surrounding canals. The owners were outraged, but
+                there was little they could do about it.
+            </p>
+            <li><a href="https://www.hjnews.com/preston/developing-town-traversing-the-riverbottoms/article_1e124f84-483e-57f2-9a23-e535e150ef95.html"></a>Continue to Full Article </li>
+        </section>
+
+        <section class="contact-list">
+            <div class="contact">
+                <p><span class="ylw">Phone:</span> 555-55555</p>
+                <p><span class="ylw">Address:</span> Preston, Idaho</p>
+                <p><span class="ylw">E-Mail:</span> GingerForecast@gmail.com</p>
+            </div>
+            <div class="social-media">
+                <p class="ylw"><a href="https://www.facebook.com" target="_blank">Facebook</p>
+                <p class="ylw"><a href="https://www.instagram.com" target="_blank">Instagram</p>
+                <p class="ylw"><a href="https://www.youtube.com" target="_blank">YouTube</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="currentYear"></span> | Nate Taylor | <a href="https://www.byui.edu"
+                target="_blank">BYU-Idaho</a></p>
+        <p><span id="currentdate"></span></p>
+    </footer>
+
+    <script src="js/currentDate.js"></script>
+    <script src="js/lastModified.js"></script>
+    <script src="js/responsiveMenu.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="script/webFontLoader.js"></script>
+    <script src="script/windchill.js"></script>
+</body>
+
+</html>

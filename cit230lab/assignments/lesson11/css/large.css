@@ -30,4 +30,39 @@
        box-shadow: 10px 10px 8px #7d8991;
        transition: .3s;
      }
+     /*Home Styles*/
+     
+     .towns {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      justify-content: center;
+      max-width: 1150px;
+      min-width: 759px;
+  }
+  
+  .towns section {
+      width: 330px;
+      display: block;
+  }
+  
+  .towns p, .towns h2 {
+      text-align: center;
+  }
+  
+  .towns h3 {
+      margin: 0;
+      padding: 0 0 25px 10px;
+      text-align: center;
+  }
+  
+  .towndata {
+      width: 310px;
+  }
+  
+  .homeArticle img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  
 }
